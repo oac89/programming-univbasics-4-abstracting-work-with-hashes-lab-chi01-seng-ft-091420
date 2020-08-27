@@ -9,7 +9,7 @@ end
 def update_counting_hash(hash, key)
     if hash[key]
   else
-    hash[:new_key] = "New Value"
+    hash[:new_key] = key
     hash[key] += 1 
  end 
 end
